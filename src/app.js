@@ -15,7 +15,7 @@ window.onload = function() {
     for (let j = 0; j < adj.length; j++) {
       for (let k = 0; k < noun.length; k++) {
         for (let l = 0; l < dotAlgo.length; l++) {
-          var domainList = [pronoun[i] + adj[j] + noun[k] + dotAlgo[l]];
+          var domainList = pronoun[i] + adj[j] + noun[k] + dotAlgo[l];
           console.log(domainList);
         }
       }
